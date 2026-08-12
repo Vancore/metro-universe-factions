@@ -23,6 +23,5 @@ The site supports both English and Russian. I added a small JS script that handl
 ## How to view it
 
 * **Live Site**: [metro.daniilproduction.com](https://metro.daniilproduction.com)
-* **GitHub Repository**: [github.com/Vancore/metro-2033-2035-analysis](https://github.com/Vancore/metro-2033-2035-analysis)
 
 Or run it locally without installing anything: clone the repository and open `index.html` (for Russian) or `en.html` (for English) directly in your browser.
