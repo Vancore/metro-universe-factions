@@ -309,3 +309,25 @@ header .author {
         text-align: center;
     }
 }
+
+
+
+.gid-prof {
+    display: inline-flex;
+    align-items: center;
+    color: #feeaea;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 6px 12px;
+    background: rgba(144, 0, 255, 0.17);
+    border: 1px solid rgba(255, 0, 0, 0.27);
+    border-radius: 4px;
+    transition: transform 0.3s ease;
+}
+
+.gid-prof:hover {
+    color: #ffffff;
+    background: #8b0000;
+    border-color: #e53935;
+    transform: translateY(-3px);
+}
