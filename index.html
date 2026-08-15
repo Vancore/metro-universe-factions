@@ -4,8 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Анализ политики и фракций в Метро 2033-2035 | Дмитрий Глуховский </title>
-    <link rel="icon" href="/icon.png" type="image/png">
+    <link rel="icon" href="https://metro.daniilproduction.com/icon.png" type="image/png" sizes="512x512">
     <link rel="stylesheet" href="style.css">
+
+    <link rel="canonical" href="https://metro.daniilproduction.com/">
+    <link rel="alternate" hreflang="ru" href="https://metro.daniilproduction.com/">
+    <link rel="alternate" hreflang="en" href="https://metro.daniilproduction.com/en.html">
+    <link rel="alternate" hreflang="x-default" href="https://metro.daniilproduction.com/en.html">
+
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
@@ -223,6 +229,8 @@
         }
         document.addEventListener('DOMContentLoaded', () => {
             if (sessionStorage.getItem('user_lang_chosen')) return;
+            const isBot = /bot|google|baidu|bing|msn|duckduckbot|teoma|slurp|yandex/i.test(navigator.userAgent);
+            if (isBot) return;
             const userLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
             const isEnglishPage = window.location.pathname.endsWith('en.html');
             if (userLang.startsWith('en') && !isEnglishPage) {
