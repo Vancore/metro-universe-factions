@@ -4,16 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Politics and Factions Analysis in Metro 2033-2035 | Dmitry Glukhovsky </title>
-    <link rel="icon" href="/icon.png" type="image/png">
+    <link rel="icon" href="https://metro.daniilproduction.com/icon.png" type="image/png" sizes="512x512">
     <link rel="stylesheet" href="style.css">
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "url": "https://metro.daniilproduction.com/en.html",
-      "logo": "https://metro.daniilproduction.com/icon.png"
-    }
-    </script>
+
+    <link rel="canonical" href="https://metro.daniilproduction.com/en.html">
+    <link rel="alternate" hreflang="ru" href="https://metro.daniilproduction.com/">
+    <link rel="alternate" hreflang="en" href="https://metro.daniilproduction.com/en.html">
+    <link rel="alternate" hreflang="x-default" href="https://metro.daniilproduction.com/en.html">
+
 </head>
 <body>
     <div class="top-lang-switch">
@@ -221,6 +219,8 @@
         }
         document.addEventListener('DOMContentLoaded', () => {
             if (sessionStorage.getItem('user_lang_chosen')) return;
+            const isBot = /bot|google|baidu|bing|msn|duckduckbot|teoma|slurp|yandex/i.test(navigator.userAgent);
+            if (isBot) return;
             const userLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
             const isEnglishPage = window.location.pathname.endsWith('en.html');
             if (userLang.startsWith('en') && !isEnglishPage) {
