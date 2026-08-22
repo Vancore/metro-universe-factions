@@ -224,23 +224,23 @@
         </div>
     </footer>
     <script>
-        function toggleMenu() {
-            document.getElementById('sidebar').classList.toggle('active');
-        }
         document.addEventListener('DOMContentLoaded', () => {
-            if (sessionStorage.getItem('user_lang_chosen')) return;
-            const isBot = /bot|google|baidu|bing|msn|duckduckbot|teoma|slurp|yandex/i.test(navigator.userAgent);
+            if (sessionStorage.getItem('lang_forced')) return;
+            const isBot = /bot|google|baidu|bing|msn|duckduckbot|yandex/i.test(navigator.userAgent);
             if (isBot) return;
-            const userLang = (navigator.language || navigator.userLanguage || '').toLowerCase();
-            const isEnglishPage = window.location.pathname.endsWith('en.html');
-            if (userLang.startsWith('en') && !isEnglishPage) {
+            const userLang = navigator.language || navigator.userLanguage;
+            const isEn = userLang.startsWith('en');
+            const isRu = userLang.startsWith('ru');
+            const path = window.location.pathname;
+            if (isEn && !path.includes('en.html')) {
                 window.location.href = 'en.html';
-            } else if (userLang.startsWith('ru') && isEnglishPage) {
+            } 
+            else if (isRu && path.includes('en.html')) {
                 window.location.href = 'index.html';
             }
         });
         function setLanguagePreference() {
-            sessionStorage.setItem('user_lang_chosen', 'true');
+            sessionStorage.setItem('lang_forced', 'true');
         }
     </script>
 </body>
