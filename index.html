@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Подробный анализ политики, идеологий и фракций вселенной «Метро 2033–2035» Дмитрия Глуховского: Ганза, Красная Линия, Четвертый Рейх, Полис и Орден Спарта.">
+    <meta name="robots" content="index, follow">
+    <meta property="og:title" content="Анализ политики и фракций в Метро 2033-2035 | Дмитрий Глуховский">
+    <meta property="og:description" content="Разбор идеологий, военной мощи и причин популярности фракций постапокалиптического метро.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://metro.daniilproduction.com/">
+    <meta property="og:image" content="https://metro.daniilproduction.com/icon.png">
+
     <title> Анализ политики и фракций в Метро 2033-2035 | Дмитрий Глуховский </title>
     <link rel="icon" href="https://metro.daniilproduction.com/icon.png" type="image/png" sizes="512x512">
     <link rel="stylesheet" href="style.css">
@@ -14,18 +22,18 @@
 
     <script type="application/ld+json">
     {
-      "@context": "https://schema.org",
-      "@type": "Organization",
-      "url": "https://metro.daniilproduction.com/",
-      "logo": "https://metro.daniilproduction.com/icon.png"
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "url": "https://metro.daniilproduction.com/",
+    "name": "Анализ политики и фракций в Метро 2033-2035"
     }
     </script>
 </head>
 <body>
     <div class="top-lang-switch">
-        <a href="index.html" class="lang-btn active" onclick="setLanguagePreference()">RU</a>
+        <a href="/" class="lang-btn active">RU</a>
         <span class="lang-divider">|</span>
-        <a href="en.html" class="lang-btn" onclick="setLanguagePreference()">EN</a>
+        <a href="en.html" class="lang-btn">EN</a>
     </div>
     <header>
         <h1>МЕТРО 2033-2035</h1>
@@ -217,31 +225,13 @@
             <p class="footer-credits">
                 Разработано для глубокого анализа вселенной <span>Метро</span>
             </p>
-            <a href="https://t.me/DaniilProduction" class="gid-prof" target="_blank" rel="noopener noreferrer">Telegram-канал</a>
+            <a href="https://github.com/Vancore" class="gid-prof" target="_blank" rel="noopener noreferrer">GitHub Profile</a>
             <a href="#intro" class="back-to-top">
                 <span class="arrow">▲</span> Наверх
             </a>
         </div>
     </footer>
     <script>
-        document.addEventListener('DOMContentLoaded', () => {
-            if (sessionStorage.getItem('lang_forced')) return;
-            const isBot = /bot|google|baidu|bing|msn|duckduckbot|yandex/i.test(navigator.userAgent);
-            if (isBot) return;
-            const userLang = navigator.language || navigator.userLanguage;
-            const isEn = userLang.startsWith('en');
-            const isRu = userLang.startsWith('ru');
-            const path = window.location.pathname;
-            if (isEn && !path.includes('en.html')) {
-                window.location.href = 'en.html';
-            } 
-            else if (isRu && path.includes('en.html')) {
-                window.location.href = 'index.html';
-            }
-        });
-        function setLanguagePreference() {
-            sessionStorage.setItem('lang_forced', 'true');
-        }
         function toggleMenu() {
             document.getElementById('sidebar').classList.toggle('active');
         }
