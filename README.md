@@ -1,27 +1,103 @@
-# Metro 2033-2035: Politics and Factions Analysis
+<div align="center">
 
-This is a web project I built to explore the social and political allegories in Dmitry Glukhovsky's Metro universe. 
+  <!-- Language Switcher -->
+  <p>
+    <strong>English</strong> &nbsp;|&nbsp; <a href="README.ru.md">Русский</a>
+  </p>
 
-In the books (and games), the Moscow Metro isn't just a post-apocalyptic shelter; it's a miniature version of human history, where survivors are divided by radical ideologies. I wanted to put together a clean, readable analysis of how these factions work and why people follow them.
+  <img src="icon.png" width="96" height="96" alt="Metro Analysis Logo" style="border-radius: 18px;" />
 
-## What's inside
+  # METRO 2033–2035
+  ### A Deconstruction of Human Nature Under Layers of Concrete
 
-The site breaks down the main political structures of the Metro:
-* Hanza (Capitalism)
-* The Red Line (Communism)
-* The Fourth Reich (Fascism)
-* Polis (Meritocracy)
-* The Sparta Order
-* The Invisible Watchers
+  [![Zero Dependencies](https://img.shields.io/badge/Dependencies-0-black?style=for-the-badge)](https://metro.daniilproduction.com)
+  [![Pure Web](https://img.shields.io/badge/Stack-HTML5%20%2F%20CSS3%20%2F%20Vanilla%20JS-black?style=for-the-badge)](https://metro.daniilproduction.com)
+  [![License](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)](LICENSE)
 
-## Technical details
+  <br />
 
-I wrote this project from scratch using standard HTML, CSS, and plain JavaScript. 
+  [**Explore Live Project →**](https://metro.daniilproduction.com/en.html) &nbsp;•&nbsp;
+  [**Russian Version**](https://metro.daniilproduction.com/) &nbsp;•&nbsp;
+  [**Daniil Production Telegram**](https://t.me/DaniilProduction)
 
-The site supports both English and Russian. I added a small JS script that handles the language switching and remembers your preference using `sessionStorage` so you don't have to click it every time.
+</div>
 
-## How to view it
+<br />
 
-* **Live Site**: [metro.daniilproduction.com](https://metro.daniilproduction.com)
+> *"Most people believe post-apocalyptic worlds are stories about survival.*  
+> *They are not. They are a mirror held up to human nature."*
 
-Or run it locally without installing anything: clone the repository and open `index.html` (for Russian) or `en.html` (for English) directly in your browser.
+Deprived of the sky, buried beneath hundreds of meters of reinforced concrete, humanity did not unite. Instead, they dragged their oldest vices into the dark: radical capitalism, totalitarian nostalgia, genetic culling, and manufactured wars. They built cages inside a cage.
+
+This project is an architectural and ideological breakdown of Dmitry Glukhovsky’s *Metro 2033–2035* universe.
+
+---
+
+## The System: Anatomy of Factions
+
+The analysis decomposes the post-nuclear society into its core ideological power centers:
+
+* **Hanza (The Commonwealth of the Ring)** — *Radical Capitalism & Trade Oligarchy.*  
+  Comfort and electricity exchanged for human souls. Predictability at the cost of corporate subjugation.
+* **The Red Line** — *Neo-Communism & State Totalitarianism.*  
+  Nostalgia weaponized into tyranny. Equality in poverty in exchange for absolute submission to the Party.
+* **The Fourth Reich** — *Fascism & Biological Purity.*  
+  Terror of external mutation transformed into systematic extermination. Order at the price of humanity.
+* **Polis** — *Academic Meritocracy & Technocracy.*  
+  The last sanctuary of human knowledge and art, crippled by caste isolation and reliant on external military force.
+* **The Sparta Order** — *The Chivalric Paradox.*  
+  Independent elite peacekeepers; idealists unwittingly serving the invisible architecture of power.
+* **The Invisible Watchers** — *The Manufactured Truth.*  
+  The ultimate totalitarian dome: sustaining perpetual subterranean wars to prevent people from looking up.
+
+---
+
+## Engineering: The Anti-Noise Philosophy
+
+Modern web software often creates what it promises to eliminate: **bloat, friction, and latency.**  
+This project was engineered as an antithesis to modern frontend excess.
+
+* **Zero Dependencies.** No npm dependencies. No build steps. No runtime frameworks. Just pure, native Web standards.
+* **Sub-Millisecond Paint.** Near-zero Time to Interactive (TTI). The layout renders instantly upon receipt of the first TCP packet.
+* **Clean Dual-Language Architecture.** Bidirectional semantic clustering via W3C-compliant `hreflang` and canonical metadata, ensuring optimal indexing across Google and Yandex AI models.
+* **Tactile Visual Canvas.** Dark-field palette calibrated for deep reading focus, paired with typographic hierarchy inspired by Swiss design principles.
+
+---
+
+## Local Deployment
+
+No installation pipelines. No package managers.
+
+```bash
+# Clone the repository
+git clone https://github.com/YOUR_USERNAME/metro.git
+
+# Navigate to workspace
+cd metro
+
+# Open directly in your browser
+open en.html      # EN version
+open index.html   # RU version
+```
+
+---
+
+## Architecture & Standards
+
+```text
+├── index.html        # Russian root document (Semantic HTML5, Schema.org)
+├── en.html           # English document (Full parity, hreflang sync)
+├── style.css         # Responsive typography & dark aesthetic engine
+├── icon.png          # High-DPI 1024x1024 identity token & OpenGraph asset
+├── robots.txt        # Crawler policy & sitemap pointer
+└── sitemap.xml       # Search engine indexing mesh
+```
+
+---
+
+<div align="center">
+
+Crafted with precision by **[Daniil Production](https://t.me/DaniilProduction)**  
+*Eliminate chaos. Start deploying.*
+
+</div>
