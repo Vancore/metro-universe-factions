@@ -10,10 +10,6 @@
   # METRO 2033–2035
   ### A Deconstruction of Human Nature Under Layers of Concrete
 
-  [![Zero Dependencies](https://img.shields.io/badge/Dependencies-0-black?style=for-the-badge)](https://metro.daniilproduction.com)
-  [![Pure Web](https://img.shields.io/badge/Stack-HTML5%20%2F%20CSS3%20%2F%20Vanilla%20JS-black?style=for-the-badge)](https://metro.daniilproduction.com)
-  [![License](https://img.shields.io/badge/License-MIT-black?style=for-the-badge)](LICENSE)
-
   <br />
 
   [**Explore Live Project →**](https://metro.daniilproduction.com/en.html) &nbsp;•&nbsp;

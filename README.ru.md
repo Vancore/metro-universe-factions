@@ -10,10 +10,6 @@
   # МЕТРО 2033–2035
   ### Деконструкция человеческой природы под слоем бетона
 
-  [![Zero Dependencies](https://img.shields.io/badge/Зависимости-0-black?style=for-the-badge)](https://metro.daniilproduction.com)
-  [![Pure Web](https://img.shields.io/badge/Стек-HTML5%20%2F%20CSS3%20%2F%20Vanilla%20JS-black?style=for-the-badge)](https://metro.daniilproduction.com)
-  [![License](https://img.shields.io/badge/Лицензия-MIT-black?style=for-the-badge)](LICENSE)
-
   <br />
 
   [**Открыть веб-проект →**](https://metro.daniilproduction.com/) &nbsp;•&nbsp;
