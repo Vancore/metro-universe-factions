@@ -66,7 +66,7 @@
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/YOUR_USERNAME/metro.git
+git clone https://github.com/Vancore/metro-universe-factions
 
 # Перейти в каталог проекта
 cd metro
