@@ -66,7 +66,7 @@ No installation pipelines. No package managers.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/metro.git
+git clone https://github.com/Vancore/metro-universe-factions
 
 # Navigate to workspace
 cd metro
