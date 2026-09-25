@@ -12,8 +12,8 @@
 
   <br />
 
-  [**Открыть веб-проект →**](https://metro.daniilproduction.com/) &nbsp;•&nbsp;
-  [**Английская версия**](https://metro.daniilproduction.com/en.html) &nbsp;•&nbsp;
+  [**Открыть веб-проект →**](https://metro.daniilproduction.com/ru/) &nbsp;•&nbsp;
+  [**Английская версия**](https://metro.daniilproduction.com/) &nbsp;•&nbsp;
   [**Telegram-канал Daniil Production**](https://t.me/DaniilProduction)
 
 </div>
@@ -66,7 +66,7 @@
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/Vancore/metro-universe-factions
+git clone https://github.com/YOUR_USERNAME/metro.git
 
 # Перейти в каталог проекта
 cd metro
@@ -81,12 +81,17 @@ open en.html      # Английская версия
 ## Структура файлов
 
 ```text
-├── index.html        # Главный документ (Русская версия, разметка Schema.org)
-├── en.html           # Английская версия (Полный паритет, синхронизация hreflang)
-├── style.css         # Движок адаптивной типографики и темной эстетики
+├── ru/
+│   └── index.html    # Русская версия страницы (/ru/)
+├── .nojekyll         # Отключение сборщика Jekyll на GitHub Pages
+├── bg.jpg            # Атмосферный арт для шапки сайта
 ├── icon.png          # High-DPI 1024x1024 логотип и OpenGraph-ассет
+├── index.html        # Основной документ на английском языке (Корень /)
+├── README.md         # Документация на английском языке
+├── README.ru.md      # Документация на русском языке
 ├── robots.txt        # Директивы для поисковых краулеров
-└── sitemap.xml       # Карта сайта для поисковой индексации
+├── sitemap.xml       # Карта сайта для поисковой индексации
+└── style.css         # Движок адаптивной типографики и темной эстетики
 ```
 
 ---

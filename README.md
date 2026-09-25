@@ -12,8 +12,8 @@
 
   <br />
 
-  [**Explore Live Project →**](https://metro.daniilproduction.com/en.html) &nbsp;•&nbsp;
-  [**Russian Version**](https://metro.daniilproduction.com/) &nbsp;•&nbsp;
+  [**Explore Live Project →**](https://metro.daniilproduction.com/) &nbsp;•&nbsp;
+  [**Russian Version**](https://metro.daniilproduction.com/ru/) &nbsp;•&nbsp;
   [**Daniil Production Telegram**](https://t.me/DaniilProduction)
 
 </div>
@@ -66,7 +66,7 @@ No installation pipelines. No package managers.
 
 ```bash
 # Clone the repository
-git clone https://github.com/Vancore/metro-universe-factions
+git clone https://github.com/YOUR_USERNAME/metro.git
 
 # Navigate to workspace
 cd metro
@@ -81,12 +81,17 @@ open index.html   # RU version
 ## Architecture & Standards
 
 ```text
-├── index.html        # Russian root document (Semantic HTML5, Schema.org)
-├── en.html           # English document (Full parity, hreflang sync)
-├── style.css         # Responsive typography & dark aesthetic engine
+├── ru/
+│   └── index.html    # Russian edition (/ru/)
+├── .nojekyll         # Disables Jekyll processing on GitHub Pages
+├── bg.jpg            # Atmospheric header background art
 ├── icon.png          # High-DPI 1024x1024 identity token & OpenGraph asset
-├── robots.txt        # Crawler policy & sitemap pointer
-└── sitemap.xml       # Search engine indexing mesh
+├── index.html        # English root document (Semantic HTML5, Schema.org)
+├── README.md         # Documentation in English
+├── README.ru.md      # Documentation in Russian
+├── robots.txt        # Crawler directives & sitemap location
+├── sitemap.xml       # Search engine indexing mesh for all locales
+└── style.css         # Dark-field aesthetic engine & responsive typography
 ```
 
 ---
