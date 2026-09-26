@@ -16,9 +16,10 @@
   [**Russian Version**](https://metro.daniilproduction.com/ru/) &nbsp;•&nbsp;
   [**Daniil Production Telegram**](https://t.me/DaniilProduction)
 
-</div>
-
 <br />
+[![Website Status](https://img.shields.io/github/actions/workflow/status/Vancore/metro-universe-factions/health-check.yml?style=for-the-badge&label=Website%20Status)](https://github.com/Vancore/metro-universe-factions/actions/workflows/health-check.yml)
+
+</div>
 
 > *"Most people believe post-apocalyptic worlds are stories about survival.*  
 > *They are not. They are a mirror held up to human nature."*
@@ -66,7 +67,7 @@ No installation pipelines. No package managers.
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/metro.git
+git clone https://github.com/Vancore/metro-universe-factions.git metro
 
 # Navigate to workspace
 cd metro
@@ -81,6 +82,9 @@ open index.html   # RU version
 ## Architecture & Standards
 
 ```text
+├── .github/
+│   └── workflows/
+│       └── health-check.yml # Automated uptime & health monitoring
 ├── ru/
 │   └── index.html    # Russian edition (/ru/)
 ├── .nojekyll         # Disables Jekyll processing on GitHub Pages

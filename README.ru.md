@@ -16,9 +16,11 @@
   [**Английская версия**](https://metro.daniilproduction.com/) &nbsp;•&nbsp;
   [**Telegram-канал Daniil Production**](https://t.me/DaniilProduction)
 
-</div>
 
 <br />
+
+[![Статус сайта](https://img.shields.io/github/actions/workflow/status/Vancore/metro-universe-factions/health-check.yml?style=for-the-badge&label=Статус%20сайта)](https://github.com/Vancore/metro-universe-factions/actions/workflows/health-check.yml)
+</div>
 
 > *«Большинство людей думают, что постапокалиптический мир — это история о выживании.*  
 > *Но это не так. Это история о человеческой природе.»*
@@ -66,7 +68,7 @@
 
 ```bash
 # Клонировать репозиторий
-git clone https://github.com/YOUR_USERNAME/metro.git
+git clone https://github.com/Vancore/metro-universe-factions.git metro
 
 # Перейти в каталог проекта
 cd metro
@@ -81,6 +83,9 @@ open en.html      # Английская версия
 ## Структура файлов
 
 ```text
+├── .github/
+│   └── workflows/
+│       └── health-check.yml # Мониторинг доступности сайта
 ├── ru/
 │   └── index.html    # Русская версия страницы (/ru/)
 ├── .nojekyll         # Отключение сборщика Jekyll на GitHub Pages
